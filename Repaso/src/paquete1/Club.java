@@ -11,7 +11,7 @@ import java.io.Serializable;
  *
  * @author reroes
  */
-public class Club implements Serializable{
+public class Club implements Serializable{ // implementacion 
 
     private int fundacion;
     private String nombre;

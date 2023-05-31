@@ -77,7 +77,7 @@ public class LecturaSecuencialClub {
             while (true) {
                 try {
                     Club registro = (Club) entrada.readObject();
-                    if (registro.obtenerSiglas().equals(cadena)) {
+                    if (registro.obtenerSiglas().equals(cadena)) { // compara si la sigla es iguala a la que se inicio por teclado
                         registroBuscado = registro;
                     }
                 } catch (EOFException endOfFileException) {
